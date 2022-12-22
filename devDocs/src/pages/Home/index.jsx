@@ -8,6 +8,8 @@ import {SiTypescript} from "react-icons/si";
 import {FaGitAlt} from "react-icons/fa";
 import {FaYarn} from "react-icons/fa";
 
+// SEMPRE CONFERIR O README.MD -------------------------------
+
 const Home = () => {
   const container = useRef(null);
 
