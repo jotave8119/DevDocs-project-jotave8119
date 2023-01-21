@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "FAST_REFRESH=false react-scripts start"
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.6.2",
@@ -15,7 +16,9 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.5.0",
-    "styled-components": "^5.3.6"
+    "react-tsparticles": "^2.8.0",
+    "styled-components": "^5.3.6",
+    "tsparticles": "^2.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

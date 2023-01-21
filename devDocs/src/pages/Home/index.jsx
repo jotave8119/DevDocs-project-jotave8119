@@ -7,6 +7,7 @@ import {FaNodeJs} from "react-icons/fa";
 import {SiTypescript} from "react-icons/si";
 import {FaGitAlt} from "react-icons/fa";
 import {FaYarn} from "react-icons/fa";
+import ParticlesBackground from "../../components/InitialBackground/Particles.jsx";
 
 // SEMPRE CONFERIR O README.MD -------------------------------
 
@@ -27,13 +28,14 @@ const Home = () => {
   return (
     <HomeContainer>
 
+      <ParticlesBackground id="particles"/>
       <div className="box">
         <h1 className="logo">DevDOCS ...<p className="blink">|</p></h1>
         <h2 className="welcome">Bem-vindo(a) ao DevDOCS!</h2>
         <p className="about">O DevDOCS nada mais é que uma central de documentações. 
           Sim! Elas estão reunidas em um só lugar para facilitar a sua vida.
         </p>
-        <div ref={container} className="dev"></div>
+        {/* <div ref={container} className="dev"></div> */}
       </div>
 
       <div className="techs">

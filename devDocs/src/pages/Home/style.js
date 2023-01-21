@@ -7,7 +7,6 @@ export const HomeContainer = styled.section`
 
     width: 100vw;
     height: 100vh;
-    background-color: var(--Grey-3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +31,9 @@ export const HomeContainer = styled.section`
           display: flex;
           flex-direction: row;
           margin-top: 100px;
+          background-color:#2a2a2dbb;
+          border-radius: 5px;
+          
           
           /* white-space: nowrap;
           overflow: hidden;
@@ -48,14 +50,16 @@ export const HomeContainer = styled.section`
         }
 
         .welcome{
-            font-size: 20px;
-            color: var(--Grey-0);
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
             margin-top: 20px;
         }
 
         .about{
             font-size: 1rem;
             text-align: center;
+            font-weight: bold;
             justify-self: center;
             color: var(--Grey-0);
             margin-top: 30px;
@@ -84,7 +88,7 @@ export const HomeContainer = styled.section`
         text-align: center;
         font-weight: bold;
         cursor: pointer;
-        animation: fadeInDown 1s;
+        animation: fadeInUp 1s;
 
         &:hover{
             box-shadow: 0px 5px 10px 2.5px var(--Color-primary) ;
@@ -95,12 +99,6 @@ export const HomeContainer = styled.section`
         }
       }
 
-      .someTechs{
-            text-align: center;
-            margin-top: 35px;
-            margin-bottom: 5px;
-        }
-
       .techs{
         width: 300px;
         height: 100px;
@@ -108,7 +106,7 @@ export const HomeContainer = styled.section`
         align-items: center;
         justify-content: space-evenly;
         margin-top: 45px;
-        animation: fadeInDown 1s;
+        animation: fadeInUp 1s;
         text-align: center;
 
         

@@ -1,6 +1,5 @@
 import "./App.css";
-import Dashboard from "./pages/Dashboard";
-import Home from "./pages/home";
+import ParticlesBackground from "./components/InitialBackground/Particles";
 import RoutesMain from "./routes";
 
 // SEMPRE CONFERIR O README.MD -------------------------
@@ -8,6 +7,7 @@ import RoutesMain from "./routes";
 const App = () => {
   return (
     <>
+      {/* <ParticlesBackground id="particles"/> */}
       <RoutesMain />
     </>
   );
