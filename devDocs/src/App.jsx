@@ -1,15 +1,19 @@
-import "./App.css";
-import ParticlesBackground from "./components/InitialBackground/Particles";
+import React from "react";
+import AuthProvider from "./contexts/AuthContext";
 import RoutesMain from "./routes";
+import { ToastContainer } from "react-toastify";
+import "./App.css";
 
 // SEMPRE CONFERIR O README.MD -------------------------
 
 const App = () => {
   return (
     <>
-      {/* <ParticlesBackground id="particles"/> */}
-      <RoutesMain />
+      <AuthProvider>
+        <RoutesMain />
+      </AuthProvider>
     </>
+   
   );
 };
 

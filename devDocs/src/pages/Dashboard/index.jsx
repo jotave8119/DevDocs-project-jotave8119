@@ -1,4 +1,8 @@
+import { AuthContext } from "../../contexts/AuthContext";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import Lottie from "lottie-web";
+import { useEffect, useRef, useState } from "react";
 import {FaReact} from "react-icons/fa";
 import {FaNodeJs} from "react-icons/fa";
 import {SiTypescript} from "react-icons/si";
@@ -31,16 +35,50 @@ import {SiMysql} from "react-icons/si";
 import {SiAmazonaws} from "react-icons/si";
 import {SiPython} from "react-icons/si";
 import {SiDocker} from "react-icons/si";
+import { DashboardContainer } from "./Style";
+import { ToastContainer } from "react-toastify";
+
 
 // SEMPRE CONFERIR O README.MD ------------------------------------
 
 const Dashboard = () => {
+    const {notify} = useContext(AuthContext);
+    
+    // const container             = useRef(null);
+
+    // useEffect(()=>{
+
+    //     Lottie.loadAnimation({
+    //         container: container.current,
+    //         renderer: "svg",
+    //         loop: true,
+    //         autoplay: true,
+    //         path: "https://assets1.lottiefiles.com/packages/lf20_HIvXrr.json",
+    //       });
+
+    //       return () => Lottie.destroy();
+
+    // }, []);
 
     return(
         <>
-        
-        <h1 className="title">dashboard</h1>
-        <Link to="/">voltar</Link>
+       
+       
+        {/* <div ref={container} className="load"></div>  */}
+         
+        <DashboardContainer>
+
+            <nav className="navBar">
+                <h1 className="title">DevDocs...
+                <p className="blink">|</p>
+                </h1>
+                <Link to="/" className="logout">Sair</Link>
+            </nav>
+            <ToastContainer
+                 toastStyle={{ backgroundColor: 'black', color: 'white' }}
+            />
+        </DashboardContainer>
+           
         {/* tecnologias:
         REACT JS
         REACT NATIVE
@@ -83,6 +121,16 @@ const Dashboard = () => {
         aws
         python
         docker
+        java
+        c
+        c#
+        c++
+        kotlin
+        flutter
+        ruby
+        php
+        swift
+        go
          */}
 
         </>

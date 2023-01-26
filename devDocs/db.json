@@ -1,0 +1,187 @@
+
+{
+    "techs": [
+        {
+            "id": 1,
+            "name": "HTML",
+            "area": "Front-end",
+            "year": "1991"
+        },
+
+        {
+            "id": 2,
+            "name": "CSS",
+            "area": "Front-end",
+            "year": "1995"
+        },
+
+        {
+            "id": 3,
+            "name": "JavaScript",
+            "area": "Front-end | Back-end | Mobile",
+            "year": "1995"
+        },
+
+        {
+            "id": 4,
+            "name": "Git",
+            "area": "Version control system",
+            "year": "1991"
+        },
+
+        {
+            "id": 5,
+            "name": "React Js",
+            "area": "Front-end",
+            "year": "2011"
+           
+        },
+
+        {
+            "id": 6,
+            "name": "Typescript",
+            "area": "Front-end | Back-end | Mobile",
+            "year": "2012"
+            
+        },
+
+        {
+            "id": 7,
+            "name": "Node JS",
+            "area": "Back-end",
+            "year": "2009"
+            
+        },
+
+        {
+            "id": 8,
+            "name": "NPM",
+            "area": "Front-end | Back-end",
+            "year": "2009"
+            
+        },
+
+        {
+            "id": 9,
+            "name": "Yarn",
+            "area": "Front-end | Back-end",
+            "year": "2016"
+        },
+
+        {
+            "id": 10,
+            "name": "Bootstrap",
+            "area": "Front-end",
+            "year": "2011"
+        },
+
+        {
+            "id": 11,
+            "name": "React Native",
+            "area": "Mobile",
+            "year": "2015"
+        },
+
+        {
+            "id": 12,
+            "name": "MUI",
+            "area": "Front-end",
+            "year": "2014" 
+        },
+
+        {
+            "id": 13,
+            "name": "Chakra UI",
+            "area": "Front-end",
+            "year": "0000"
+        },
+
+        {
+            "id": 14,
+            "name": "TailWind",
+            "area": "Front-end",
+            "year": "2017"
+        },
+
+        {
+            "id": 15,
+            "name": "GitHub",
+            "area": "Front-end | Back-end | Mobile",
+            "year": "2008"
+        },
+
+        {
+            "id": 16,
+            "name": "FireBase",
+            "area": "Front-end | Back-end | Mobile",
+            "year": "2012"
+        },
+
+        {
+            "id": 17,
+            "name": "Next JS",
+            "area": "Front-end | Back-end",
+            "year": "2016"
+        },
+
+        {
+            "id": 18,
+            "name": "Animate.css",
+            "area": "Front-end",
+            "year": "0000"
+        },
+
+        {
+            "id": 19,
+            "name": "Dribble",
+            "area": "Front-end | Mobile",
+            "year": "2009"
+        },
+
+        {
+            "id": 20,
+            "name": "React-Icons",
+            "area": "Front-end | Mobile",
+            "year": "0000"
+        },
+
+        {
+            "id": 21,
+            "name": "React-Router",
+            "area": "Front-end | Mobile",
+            "year": "0000"
+        },
+
+        {
+            "id": 22,
+            "name": "Styled Components",
+            "area": "Front-end | Mobile",
+            "year": "0000"
+        },
+
+        {
+            "id": 23,
+            "name": "Nest Js",
+            "area": "Back-end",
+            "year": "2017"
+        },
+
+        {
+            "id": 24,
+            "name": "Axios",
+            "area": "Front-end",
+            "year": "2016"
+        },
+
+        {
+            "id": 25,
+            "name": "React-Toastify",
+            "area": "Front-end | Mobile",
+            "year": "0000"
+        },
+
+        {
+
+        }
+    ]
+}

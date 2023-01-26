@@ -27,7 +27,7 @@ const ParticlesBackground = () => {
                 autoPlay: true,
                 background: {
                   color: {
-                    value: "#000",
+                    value: "#343b41",
                   },
                   image: "",
                   position: "",

@@ -16,23 +16,26 @@ export const HomeContainer = styled.section`
 
    .box{
         width: 100%;
-        height: 500px;
+        height: 100%;
         display: flex;
         align-items: center;
         margin-top: 20px;
         flex-direction: column;
         justify-content: space-evenly;
-        animation: fadeInDown 1s;
+        animation: fadeIn 1s;
         text-align: center;
 
         .logo{
           font-weight: bold;
+          font-size: 40px;
           color: var(--Grey-0);
           display: flex;
           flex-direction: row;
-          margin-top: 100px;
+          margin-top: 50px;
           background-color:#2a2a2dbb;
           border-radius: 5px;
+          padding: 5px;
+          
           
           
           /* white-space: nowrap;
@@ -50,7 +53,7 @@ export const HomeContainer = styled.section`
         }
 
         .welcome{
-            font-size: 30px;
+            font-size: 25px;
             font-weight: bold;
             color: white;
             margin-top: 20px;
@@ -67,11 +70,9 @@ export const HomeContainer = styled.section`
         }
 
       .dev{
-          height: 200px;
+          height: 300px;
           width: 300px;
-          margin-top: 20px;
-          margin-bottom: 10px;
-          animation: shakeY 5s linear infinite;
+          margin-bottom: 15px;
       } 
    }
 
@@ -105,7 +106,7 @@ export const HomeContainer = styled.section`
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        margin-top: 45px;
+        margin-top: 25px;
         animation: fadeInUp 1s;
         text-align: center;
 
@@ -115,6 +116,7 @@ export const HomeContainer = styled.section`
             cursor: pointer;
             padding: 2px;
             background-color: transparent;
+            animation: fadeIn 1s;
 
             &:hover{
             box-shadow: 0px 5px 10px 2.5px #61DAFB;
@@ -128,6 +130,7 @@ export const HomeContainer = styled.section`
             cursor: pointer;
             padding: 2px;
             background-color: transparent;
+            animation: fadeIn 1s;
 
             &:hover{
             box-shadow: 0px 5px 10px 2.5px #EF391A;
@@ -141,6 +144,7 @@ export const HomeContainer = styled.section`
             cursor: pointer;
             padding: 2px;
             background-color: transparent;
+            animation: fadeIn 1s;
 
             &:hover{
             box-shadow: 0px 5px 10px 2.5px #237A1F;
@@ -154,6 +158,7 @@ export const HomeContainer = styled.section`
             cursor: pointer;
             padding: 2px;
             background-color: transparent;
+            animation: fadeIn 1s;
 
             &:hover{
             box-shadow: 0px 5px 10px 2.5px #117CAD;
@@ -167,6 +172,7 @@ export const HomeContainer = styled.section`
             cursor: pointer;
             padding: 2px;
             background-color: transparent;
+            animation: fadeIn 1s;
 
             &:hover{
             box-shadow: 0px 5px 10px 2.5px #3178C6;
@@ -198,9 +204,7 @@ export const HomeContainer = styled.section`
 
 @media(min-width: 768px){
 
-    .box{
-        height: 600px;
-    }
+  
     .logo{
         font-size: 60px;
         margin-top: 30px;
@@ -208,12 +212,14 @@ export const HomeContainer = styled.section`
 
     .dev{
         width: 400px;
-        height: 450px;
+        height: 400px;
+        padding: 0;
     }
 
     .techs{
         width: 600px;
         gap: 20px;
+        margin-top: 10px;
     }
 
 
