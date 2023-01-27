@@ -6,7 +6,7 @@ export const HomeContainer = styled.section`
 
 
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,14 +16,19 @@ export const HomeContainer = styled.section`
 
    .box{
         width: 100%;
-        height: 100%;
+        height: 60%;
         display: flex;
         align-items: center;
-        margin-top: 20px;
         flex-direction: column;
-        justify-content: space-evenly;
+        gap: 25px;
+        margin-bottom: 25px;
         animation: fadeIn 1s;
         text-align: center;
+
+        .devdocs{
+          padding: 0;
+          
+        }
 
         .logo{
           font-weight: bold;
@@ -53,10 +58,12 @@ export const HomeContainer = styled.section`
         }
 
         .welcome{
-            font-size: 25px;
+            font-size: 35px;
+            line-break: auto;
             font-weight: bold;
             color: white;
-            margin-top: 20px;
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
 
         .about{
@@ -65,7 +72,7 @@ export const HomeContainer = styled.section`
             font-weight: bold;
             justify-self: center;
             color: var(--Grey-0);
-            margin-top: 30px;
+            margin-top: 5px;
             width: 80%;
         }
 
@@ -80,8 +87,8 @@ export const HomeContainer = styled.section`
         width: 200px;
         height: 40px;
         padding: 5px;
-        margin-top: 40px;
-        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 70px;
         border: solid 1px white;
         border-radius: 8px;
         color: var(--Grey-0);
@@ -207,7 +214,6 @@ export const HomeContainer = styled.section`
   
     .logo{
         font-size: 60px;
-        margin-top: 30px;
     }
 
     .dev{
@@ -219,7 +225,7 @@ export const HomeContainer = styled.section`
     .techs{
         width: 600px;
         gap: 20px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
 

@@ -38,6 +38,8 @@ import {SiDocker} from "react-icons/si";
 import { DashboardContainer } from "./Style";
 import { ToastContainer } from "react-toastify";
 
+import dashLogo1 from "../../assets/dashLogo1.png"
+
 
 // SEMPRE CONFERIR O README.MD ------------------------------------
 
@@ -69,9 +71,10 @@ const Dashboard = () => {
         <DashboardContainer>
 
             <nav className="navBar">
-                <h1 className="title">DevDocs...
+                <img className="dashLogo" src={dashLogo1} alt="img" />
+                {/* <h1 className="title">DevDocs...
                 <p className="blink">|</p>
-                </h1>
+                </h1> */}
                 <Link to="/" className="logout">Sair</Link>
             </nav>
             <ToastContainer

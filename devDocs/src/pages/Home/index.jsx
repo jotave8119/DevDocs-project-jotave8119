@@ -14,6 +14,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaInstagramSquare } from "react-icons/fa";
 import ParticlesBackground from "../../components/InitialBackground/Particles.jsx";
 import { ToastContainer } from "react-toastify";
+import DevdocsLogo1 from "../../assets/DevdocsLogo1.png"
 
 // SEMPRE CONFERIR O README.MD -------------------------------
 
@@ -25,38 +26,40 @@ const Home = () => {
     <HomeContainer>
       <ParticlesBackground id="particles" />
       <div className="box">
-        <h1 className="logo">
+        <img className="devdocs" src={DevdocsLogo1} alt="img" />
+        {/* <h1 className="logo">
           DevDOCS ...<p className="blink">|</p>
-        </h1>
+        </h1> */}
         <h2 className="welcome">Bem-vindo(a) ao DevDOCS!</h2>
         <p className="about">
           O DevDOCS nada mais é que uma central de documentações. Sim! Elas
           estão reunidas em um só lugar para facilitar a sua vida.
         </p>
-      </div>
 
-      <div className="techs">
-        <span className="reactIcon" title="React JS">
-          <FaReact size={40} />
-        </span>
-        <span className="gitIcon" title="Git">
-          <FaGitAlt size={40} />
-        </span>
-        <span className="nodeIcon" title="Node Js">
-          <FaNodeJs size={40} />
-        </span>
-        <span className="yarnIcon" title="Yarn">
-          <FaYarn size={40} />
-        </span>
-        <span className="tsIcon" title="TypeScript">
-          <SiTypescript size={40} />
-        </span>
+        <div className="techs">
+          <span className="reactIcon" title="React JS">
+            <FaReact size={40} />
+          </span>
+          <span className="gitIcon" title="Git">
+            <FaGitAlt size={40} />
+          </span>
+          <span className="nodeIcon" title="Node Js">
+            <FaNodeJs size={40} />
+          </span>
+          <span className="yarnIcon" title="Yarn">
+            <FaYarn size={40} />
+          </span>
+          <span className="tsIcon" title="TypeScript">
+            <SiTypescript size={40} />
+          </span>
       </div>
 
       <Link to="/Dashboard" className="link"> 
-      
         Iniciar
       </Link>
+      </div>
+
+
       <ToastContainer
         toastStyle={{ backgroundColor: 'black', color: 'white' }}
       />

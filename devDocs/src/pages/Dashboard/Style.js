@@ -22,12 +22,20 @@ background-color: var(--Grey-4);
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border-bottom: solid 2px white;
+        border-bottom: solid 1px white;
         top: 0;
         left: 0;
         position: sticky;
         z-index: 10;
         animation: fadeInDown 0.5s;
+
+        .dashLogo{
+            width: 60px;
+            height: 60px;
+            border: solid 4px white;
+            border-radius: 50%;
+            animation: fadeIn 1s;
+        }
 
         .title{
             font-size: 25px;
