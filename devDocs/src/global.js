@@ -13,6 +13,10 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Nunito', sans-serif;
 }
 
+#root{
+  overflow-x: hidden;
+}
+
 :root {
     --Color-primary: #a016c7;
     --Color-primary-Focus: #c115bb;

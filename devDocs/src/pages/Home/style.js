@@ -6,22 +6,22 @@ export const HomeContainer = styled.section`
 
 
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+    padding: 5px;
 
    .box{
         width: 100%;
         height: 60%;
         display: flex;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        gap: 25px;
-        margin-bottom: 25px;
+        gap: 10px;
+        margin-top: 50px;
+        margin-bottom: 15px;
         animation: fadeIn 1s;
         text-align: center;
 
@@ -30,7 +30,7 @@ export const HomeContainer = styled.section`
           
         }
 
-        .logo{
+        /* .logo{
           font-weight: bold;
           font-size: 40px;
           color: var(--Grey-0);
@@ -43,11 +43,11 @@ export const HomeContainer = styled.section`
           
           
           
-          /* white-space: nowrap;
+          white-space: nowrap;
           overflow: hidden;
           animation: typewriter 2s steps(12) infinite alternate,
             blink 800ms steps(12) infinite normal;
-          border-right: 5px solid white; */
+          border-right: 5px solid white;
 
           .blink{
             font-weight: 500;
@@ -55,7 +55,7 @@ export const HomeContainer = styled.section`
             animation: flash 1s linear infinite;
             margin-bottom: 10px;
           }
-        }
+        } */
 
         .welcome{
             font-size: 35px;
@@ -63,7 +63,7 @@ export const HomeContainer = styled.section`
             font-weight: bold;
             color: white;
             margin-top: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         .about{
@@ -72,7 +72,7 @@ export const HomeContainer = styled.section`
             font-weight: bold;
             justify-self: center;
             color: var(--Grey-0);
-            margin-top: 5px;
+            margin-top: 3px;
             width: 80%;
         }
 
@@ -113,7 +113,7 @@ export const HomeContainer = styled.section`
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        margin-top: 25px;
+        margin-top: 15px;
         animation: fadeInUp 1s;
         text-align: center;
 
@@ -122,6 +122,7 @@ export const HomeContainer = styled.section`
         .reactIcon{
             cursor: pointer;
             padding: 2px;
+            color: var(--Grey-0);
             background-color: transparent;
             animation: fadeIn 1s;
 
@@ -135,6 +136,7 @@ export const HomeContainer = styled.section`
 
         .gitIcon{
             cursor: pointer;
+            color: var(--Grey-0);
             padding: 2px;
             background-color: transparent;
             animation: fadeIn 1s;
@@ -149,6 +151,7 @@ export const HomeContainer = styled.section`
 
         .nodeIcon{
             cursor: pointer;
+            color: var(--Grey-0);
             padding: 2px;
             background-color: transparent;
             animation: fadeIn 1s;
@@ -163,6 +166,7 @@ export const HomeContainer = styled.section`
 
         .yarnIcon{
             cursor: pointer;
+            color: var(--Grey-0);
             padding: 2px;
             background-color: transparent;
             animation: fadeIn 1s;
@@ -177,6 +181,7 @@ export const HomeContainer = styled.section`
 
         .tsIcon{
             cursor: pointer;
+            color: var(--Grey-0);
             padding: 2px;
             background-color: transparent;
             animation: fadeIn 1s;
@@ -188,29 +193,21 @@ export const HomeContainer = styled.section`
             transition: 0.5s;
         }
     }
+
+    .foot{
+      width: 100%;
+      height: 100px;
+      margin-top: 50px;
+    }
 }
-// KEYFRAMES
-/* @keyframes typewriter {
-        from {
-          width: 0%;
-        }
-        to {
-          width: 80%;
-        }
-      }
-      @keyframes blink {
-        from {
-          border-color: white;
-        }
-        to {
-          border-color: transparent;
-        }
-      } */
 
 //MEDIA QUERY ---- -- - -- - - -- -- 
 
 @media(min-width: 768px){
 
+    .box{
+      gap: 20px;
+    }
   
     .logo{
         font-size: 60px;

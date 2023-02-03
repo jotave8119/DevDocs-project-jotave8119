@@ -5,35 +5,45 @@
             "id": 1,
             "name": "HTML",
             "area": "Front-end",
-            "year": "1991"
+            "year": "1991",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            "doc": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
         },
 
         {
             "id": 2,
             "name": "CSS",
             "area": "Front-end",
-            "year": "1995"
+            "year": "1995",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+            "doc": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
         },
 
         {
             "id": 3,
             "name": "JavaScript",
             "area": "Front-end | Back-end | Mobile",
-            "year": "1995"
+            "year": "1995",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            "doc": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
         },
 
         {
             "id": 4,
             "name": "Git",
             "area": "Version control system",
-            "year": "1991"
+            "year": "1991",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+            "doc": "https://git-scm.com/doc"
         },
 
         {
             "id": 5,
             "name": "React Js",
             "area": "Front-end",
-            "year": "2011"
+            "year": "2011",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "doc": "https://pt-br.reactjs.org/docs/getting-started.html"
            
         },
 
@@ -41,7 +51,9 @@
             "id": 6,
             "name": "Typescript",
             "area": "Front-end | Back-end | Mobile",
-            "year": "2012"
+            "year": "2012",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+            "doc": "https://www.typescriptlang.org/docs/"
             
         },
 
@@ -49,15 +61,19 @@
             "id": 7,
             "name": "Node JS",
             "area": "Back-end",
-            "year": "2009"
+            "year": "2009",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+            "doc": "https://nodejs.org/pt-br/docs/"
             
         },
 
         {
             "id": 8,
-            "name": "NPM",
+            "name": "Npm",
             "area": "Front-end | Back-end",
-            "year": "2009"
+            "year": "2009",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+            "doc": "https://docs.npmjs.com/"
             
         },
 
@@ -65,123 +81,397 @@
             "id": 9,
             "name": "Yarn",
             "area": "Front-end | Back-end",
-            "year": "2016"
+            "year": "2016",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg",
+            "doc": "https://classic.yarnpkg.com/lang/en/docs/"
         },
 
         {
             "id": 10,
             "name": "Bootstrap",
             "area": "Front-end",
-            "year": "2011"
+            "year": "2011",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+            "doc": "https://getbootstrap.com/docs/4.1/getting-started/introduction/"
         },
 
         {
             "id": 11,
             "name": "React Native",
             "area": "Mobile",
-            "year": "2015"
+            "year": "2015",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "doc": "https://reactnative.dev/docs/getting-started"
         },
 
         {
             "id": 12,
-            "name": "MUI",
+            "name": "Material UI - MUI",
             "area": "Front-end",
-            "year": "2014" 
+            "year": "2014",
+            "image": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
+            "doc": "https://mui.com/material-ui/getting-started/usage/"
         },
 
         {
             "id": 13,
             "name": "Chakra UI",
             "area": "Front-end",
-            "year": "0000"
+            "year": "0000",
+            "image": "https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/media/logo-colored@2x.png?raw=true",
+            "doc": "https://chakra-ui.com/getting-started"
         },
 
         {
             "id": 14,
             "name": "TailWind",
             "area": "Front-end",
-            "year": "2017"
+            "year": "2017",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+            "doc": "https://v2.tailwindcss.com/docs"
         },
+    
 
         {
             "id": 15,
             "name": "GitHub",
             "area": "Front-end | Back-end | Mobile",
-            "year": "2008"
+            "year": "2008",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+            "doc": "https://docs.github.com/pt"
         },
 
         {
             "id": 16,
             "name": "FireBase",
             "area": "Front-end | Back-end | Mobile",
-            "year": "2012"
+            "year": "2012",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg",
+            "doc": "https://firebase.google.com/docs?hl=pt-br"
         },
 
         {
             "id": 17,
             "name": "Next JS",
             "area": "Front-end | Back-end",
-            "year": "2016"
+            "year": "2016",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+            "doc": "https://nextjs.org/docs/getting-started"
         },
 
         {
             "id": 18,
             "name": "Animate.css",
             "area": "Front-end",
-            "year": "0000"
+            "year": "0000",
+            "image": "https://o.remove.bg/downloads/5427ad39-5d82-4c44-888b-1e3222f78f65/animatecss-opengraph-removebg-preview.png",
+            "doc": "https://animate.style/"
         },
 
         {
             "id": 19,
             "name": "Dribble",
             "area": "Front-end | Mobile",
-            "year": "2009"
+            "year": "2009",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/dribbble-icon-1-logo-png-transparent.png",
+            "doc": "https://dribbble.com/"
         },
 
         {
             "id": 20,
             "name": "React-Icons",
             "area": "Front-end | Mobile",
-            "year": "0000"
+            "year": "0000",
+            "image": "https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667",
+            "doc": "https://react-icons.github.io/react-icons/"
         },
 
         {
             "id": 21,
             "name": "React-Router",
             "area": "Front-end | Mobile",
-            "year": "0000"
+            "year": "0000",
+            "image": "https://reactrouter.com/_brand/react-router-stacked-color.png",
+            "doc": "https://reactrouter.com/en/main"
         },
 
         {
             "id": 22,
             "name": "Styled Components",
             "area": "Front-end | Mobile",
-            "year": "0000"
+            "year": "0000",
+            "image": "https://miro.medium.com/max/318/1*7jRD5QhgARucFKvRHFxpOg.png",
+            "doc": "https://styled-components.com/docs"
         },
 
         {
             "id": 23,
             "name": "Nest Js",
             "area": "Back-end",
-            "year": "2017"
+            "year": "2017",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+            "doc": "https://docs.nestjs.com/"
         },
 
         {
             "id": 24,
             "name": "Axios",
             "area": "Front-end",
-            "year": "2016"
+            "year": "2016",
+            "image": "https://user-images.githubusercontent.com/8939680/57233884-20344080-6fe5-11e9-8df3-0df1282e1574.png",
+            "doc": "https://axios-http.com/ptbr/docs/intro"
         },
 
         {
             "id": 25,
             "name": "React-Toastify",
             "area": "Front-end | Mobile",
-            "year": "0000"
+            "year": "0000",
+            "image": "https://www.pngall.com/wp-content/uploads/12/Toaster-PNG-Images.png",
+            "doc": "https://fkhadra.github.io/react-toastify/introduction/"
         },
 
         {
+            "id": 26,
+            "name": "Angular JS",
+            "area": "Front-end | Mobile",
+            "year": "2010",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+            "doc": "https://angular.io/docs"
+        },
 
+        {
+            "id": 27,
+            "name": "Vue JS",
+            "area": "Front-end | Mobile",
+            "year": "2014",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+            "doc": "https://br.vuejs.org/v2/guide/index.html"
+        },
+
+        {
+            "id": 28,
+            "name": "Vite",
+            "area": "Front-end",
+            "year": "0000",
+            "image": "https://vitejs.dev/logo-with-shadow.png",
+            "doc": "https://vitejs.dev/guide/"
+        },
+
+        {
+            "id": 29,
+            "name": "Vercel",
+            "area": "Front-end | Mobile",
+            "year": "0000",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vercel_logo_black.svg/2560px-Vercel_logo_black.svg.png",
+            "doc": "https://vercel.com/docs"
+        },
+
+        {
+            "id": 30,
+            "name": "LottieFiles",
+            "area": "Front-end | Mobile",
+            "year": "0000",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/LottieFiles_logo.svg/2560px-LottieFiles_logo.svg.png",
+            "doc": "https://lottiefiles.com/what-is-lottie"
+        },
+
+        {
+            "id": 31,
+            "name": "framer Motion",
+            "area": "Front-end | Mobile",
+            "year": "0000",
+            "image": "https://user-images.githubusercontent.com/38039349/60953119-d3c6f300-a2fc-11e9-9596-4978e5d52180.png",
+            "doc": "https://www.framer.com/motion/"
+        },
+
+        {
+            "id": 32,
+            "name": "Vs Code",
+            "area": "Front-end | Back-end | Mobile",
+            "year": "2015",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+            "doc": "https://code.visualstudio.com/docs"
+        },
+
+        {
+            "id": 33,
+            "name": "Express JS",
+            "area": "Back-end",
+            "year": "2010",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+            "doc": "https://expressjs.com/pt-br/"
+        },
+
+        {
+            "id": 34,
+            "name": "Type ORM",
+            "area": "Back-end",
+            "year": "0000",
+            "image": "https://seeklogo.com/images/T/typeorm-logo-F243B34DEE-seeklogo.com.png",
+            "doc": "https://typeorm.io/"
+        },
+
+        {
+            "id": 35,
+            "name": "PostgreSQL",
+            "area": "Back-end",
+            "year": "1996",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+            "doc": "https://www.postgresql.org/docs/"
+        },
+
+        {
+            "id": 36,
+            "name": "MongoDB",
+            "area": "Back-end",
+            "year": "2009",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+            "doc": "https://www.mongodb.com/docs/"
+        },
+
+        {
+            "id": 37,
+            "name": "MySQL",
+            "area": "Back-end",
+            "year": "1995",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+            "doc": "https://dev.mysql.com/doc/"
+        },
+
+        {
+            "id": 38,
+            "name": "DBeaver",
+            "area": "Back-end",
+            "year": "2010",
+            "image": "https://www.yugabyte.com/wp-content/uploads/2019/07/LogoX2.png",
+            "doc": "https://dbeaver.com/docs/wiki/"   
+        },
+
+        {
+            "id": 39,
+            "name": "AWS",
+            "area": "Back-end",
+            "year": "2006",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+            "doc": "https://docs.aws.amazon.com/pt_br/"
+        },
+
+        {
+            "id": 40,
+            "name": "Python",
+            "area": "Front-end | Back-end | Mobile",
+            "year": "1991",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+            "doc": "https://docs.python.org/pt-br/3/"
+        },
+
+        {
+            "id": 41,
+            "name": "Docker",
+            "area": "Front-end | Back-end",
+            "year": "2013",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
+            "doc": "https://docs.docker.com/"
+        },
+
+        {
+            "id": 42,
+            "name": "Java",
+            "area": "Front-end | Back-end",
+            "year": "1995",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+            "doc": "https://docs.oracle.com/en/java/"
+        },
+
+        {
+            "id": 43,
+            "name": "C",
+            "area": "Front-end | Back-end",
+            "year": "1972",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+            "doc": "https://learn.microsoft.com/pt-br/cpp/c-language/?view=msvc-170"
+        },
+
+        {
+            "id": 44,
+            "name": "C#",
+            "area": "Front-end | Back-end",
+            "year": "1999",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+            "doc": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
+        },
+
+        {
+            "id": 45,
+            "name": "C++",
+            "area": "Front-end | Back-end",
+            "year": "1980",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+            "doc": "https://devdocs.io/cpp/"
+        },
+
+        {
+            "id": 46,
+            "name": "Kotlin",
+            "area": "Mobile",
+            "year": "2011",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original-wordmark.svg",
+            "doc": "https://kotlinlang.org/docs/home.html"
+        },
+
+        {
+            "id": 47,
+            "name": "Flutter",
+            "area": "Mobile",
+            "year": "2017",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+            "doc": "https://docs.flutter.dev/"
+        },
+
+        {
+            "id": 48,
+            "name": "Swift",
+            "area": "Mobile",
+            "year": "2014",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+            "doc": "https://docs.swift.org/swift-book/"
+        },
+
+        {
+            "id": 49,
+            "name": "Ruby",
+            "area": "Back-end",
+            "year": "2004",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
+            "doc": "https://www.ruby-lang.org/pt/documentation/"
+        },
+
+        {
+            "id": 50,
+            "name": "PHP",
+            "area": "Front-end | Back-end",
+            "year": "1994",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+            "doc": "https://www.php.net/manual/pt_BR/index.php"
+        },
+
+        {
+            "id": 51,
+            "name": "Go",
+            "area": "Back-end",
+            "year": "2009",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+            "doc": "https://go.dev/doc/"
+        },
+
+        {
+            "id": 52,
+            "name": "Nuxt jS",
+            "area": "Front-end",
+            "year": "2016",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
+            "doc": "https://develop365.gitlab.io/nuxtjs-2.1.0-doc/pt-BR/guide/"
         }
     ]
 }

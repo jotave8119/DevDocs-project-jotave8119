@@ -12,17 +12,24 @@ export const DashboardContainer = styled.main`
     font-family: 'Nunito', sans-serif;
 }
 
-width: 100vw;
-height: 100vh;
-background-color: var(--Grey-4);
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Grey-3);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
 
     .navBar{
         width: 100%;
-        height: 80px;
+        height: 100px;
+        padding: 20px;
         display: flex;
-        justify-content: space-evenly;
+        background-color: var(--Grey-4);
+        justify-content: space-around;
+        gap: 10px;
         align-items: center;
-        border-bottom: solid 1px white;
+        border-bottom: solid 3px var(--Color-primary);
         top: 0;
         left: 0;
         position: sticky;
@@ -35,7 +42,22 @@ background-color: var(--Grey-4);
             border: solid 4px white;
             border-radius: 50%;
             animation: fadeIn 1s;
+            transition: all 1s;
+
+            &:hover{
+                -webkit-transform: rotateZ(360deg);
+                transform: rotateZ(360deg);
+            }
         }
+
+        .form{
+            height: 40px;
+            color: var(--Grey-0);
+            border-radius: 5px;
+            border: solid 2px var(--Color-primary);
+            padding: 5px;
+            width: 130px;
+}
 
         .title{
             font-size: 25px;
@@ -54,7 +76,7 @@ background-color: var(--Grey-4);
             color: white;
             font-size: 15px;
             font-weight: 700;
-            border: solid 2px white;
+            border: solid 2px var(--Color-primary);
             width: 80px;
             border-radius: 5px;
             padding: 5px;
@@ -62,11 +84,47 @@ background-color: var(--Grey-4);
 
             &:hover{
             box-shadow: 0px 5px 10px 2.5px var(--Color-primary) ;
-            border: solid 1px #F8F9FA;
+            border: solid 1px var(--Color-primary);
             transform: translateY(-5px);
             background-color: var(--Color-primary);
             transition: 0.5s;
         }
         }
+
+        .list{
+            width: 90%;
+            height: 80%;
+            
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--Grey-3);
+            flex-direction: column;
+            margin-bottom: 40px;
+            animation: fadeInLeft 0.5s;
+            
+        }
+
     }
+
+    @media(min-width: 768px){
+        .list{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 85%;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        input{
+           width: 200px;
+           
+       }
+    } 
 `;

@@ -37,32 +37,27 @@ const Home = () => {
         </p>
 
         <div className="techs">
-          <span className="reactIcon" title="React JS">
+          <a href="https://pt-br.reactjs.org/docs/getting-started.html" className="reactIcon" target="_blank"  title="React JS">
             <FaReact size={40} />
-          </span>
-          <span className="gitIcon" title="Git">
+          </a>
+          <a href="https://git-scm.com/doc" className="gitIcon" target="_blank"  title="Git">
             <FaGitAlt size={40} />
-          </span>
-          <span className="nodeIcon" title="Node Js">
+          </a>
+          <a href="https://nodejs.org/pt-br/docs/" className="nodeIcon" target="_blank"  title="Node Js">
             <FaNodeJs size={40} />
-          </span>
-          <span className="yarnIcon" title="Yarn">
+          </a>
+          <a href="https://classic.yarnpkg.com/lang/en/docs/" className="yarnIcon" target="_blank"  title="Yarn">
             <FaYarn size={40} />
-          </span>
-          <span className="tsIcon" title="TypeScript">
+          </a>
+          <a href="https://www.typescriptlang.org/docs/" className="tsIcon" target="_blank"  title="TypeScript">
             <SiTypescript size={40} />
-          </span>
+          </a>
       </div>
-
       <Link to="/Dashboard" className="link"> 
         Iniciar
       </Link>
       </div>
-
-
-      <ToastContainer
-        toastStyle={{ backgroundColor: 'black', color: 'white' }}
-      />
+      <footer className="foot"></footer>
     </HomeContainer>
   );
 };
