@@ -1,22 +1,14 @@
 import { AuthContext } from "../../contexts/AuthContext";
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import Lottie from "lottie-web";
-import { useEffect, useRef, useState } from "react";
 import { DashboardContainer } from "./Style";
-import { ToastContainer } from "react-toastify";
 import dashLogo1 from "../../assets/dashLogo1.png";
 import TechsList from "../../components/TechsList";
 import Footer from "../../components/Footer";
 
-// SEMPRE CONFERIR O README.MD ------------------------------------
 
 const Dashboard = () => {
-  const { notify, setSearch } = useContext(AuthContext);
-
-  
-
-  
+  const {setSearch} = useContext(AuthContext);
 
   return (
       <DashboardContainer>

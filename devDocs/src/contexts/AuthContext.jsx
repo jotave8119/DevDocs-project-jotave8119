@@ -8,14 +8,14 @@ export const AuthContext = createContext({});
 
 const AuthProvider = ({children}) => {
 
-  const [techs, setTechs]   = useState([]);
-  const [search, setSearch] = useState("");
-  // const container             = useRef(null);
+  const [techs, setTechs]             = useState([]);
+  const [search, setSearch]           = useState("");
+  const [isLoading, setIsLoading]     = useState(true);
 
   useEffect(() => {
-    api.get("techs")
-       .then(resp => setTechs(resp.data))
-       .catch(err => console.log(err))
+      api.get("techs")
+         .then(resp => setTechs(resp.data))
+         .catch(err => console.log(err))
   }, []);
 
 
@@ -23,20 +23,6 @@ const AuthProvider = ({children}) => {
     search === '' ? true : techs.name.toLowerCase().includes(search.toLowerCase()) ||
     search === '' ? true : techs.area.toLowerCase().includes(search.toLowerCase())
   );
-
-  // useEffect(()=>{
-
-  //     Lottie.loadAnimation({
-  //         container: container.current,
-  //         renderer: "svg",
-  //         loop: true,
-  //         autoplay: true,
-  //         path: "https://assets1.lottiefiles.com/packages/lf20_HIvXrr.json",
-  //       });
-
-  //       return () => Lottie.destroy();
-
-  // }, []);
 
     const notify = (message, type) => {
         const config = {
@@ -62,7 +48,11 @@ const AuthProvider = ({children}) => {
       };
 
       return(
-        <AuthContext.Provider value={{notify, techs, setTechs, search, setSearch, filteredTechs}}>
+        <AuthContext.Provider 
+        value={{notify, techs, setTechs, search,
+                setSearch, filteredTechs, isLoading, 
+                setIsLoading
+              }}>
             {children}
         </AuthContext.Provider>
       )
