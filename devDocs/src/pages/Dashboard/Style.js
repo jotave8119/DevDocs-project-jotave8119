@@ -39,9 +39,9 @@ export const DashboardContainer = styled.main`
         .dashLogo{
             width: 60px;
             height: 60px;
-            border: solid 4px white;
-            border-radius: 50%;
             animation: fadeIn 1s;
+            /* border: solid 2px var(--Color-primary);
+            border-radius: 50%; */
             transition: all 1s;
 
             &:hover{

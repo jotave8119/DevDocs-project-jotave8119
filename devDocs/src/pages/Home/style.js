@@ -26,8 +26,10 @@ export const HomeContainer = styled.section`
         text-align: center;
 
         .devdocs{
+          width: 400px;
+          height: 400px;
           padding: 0;
-          
+          margin: 0;
         }
 
         /* .logo{
@@ -76,11 +78,6 @@ export const HomeContainer = styled.section`
             width: 80%;
         }
 
-      .dev{
-          height: 300px;
-          width: 300px;
-          margin-bottom: 15px;
-      } 
    }
 
    .link{
@@ -203,7 +200,7 @@ export const HomeContainer = styled.section`
 
 //MEDIA QUERY ---- -- - -- - - -- -- 
 
-@media(min-width: 768px){
+@media(min-width:768px){
 
     .box{
       gap: 20px;
@@ -213,7 +210,7 @@ export const HomeContainer = styled.section`
         font-size: 60px;
     }
 
-    .dev{
+    .devdocs{
         width: 400px;
         height: 400px;
         padding: 0;
