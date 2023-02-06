@@ -1,31 +1,16 @@
 import React from "react";
 import { useContext, useEffect } from "react";
-import PuffLoader from "react-spinners/PuffLoader";
 import { AuthContext } from "../../contexts/AuthContext";
+import Loading from "../Loading";
 import { ListContainer } from "./Style";
 
 const TechsList = () => {
-  const { techs, setTechs, filteredTechs, isLoading, setIsLoading } =
+
+  const { techs, setTechs, filteredTechs, isLoading } =
     useContext(AuthContext);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1500);
-  }, []);
-
-  const override = {
-    display: "block",
-    margin: "0 auto",
-  };
-
   return isLoading ? (
-    <PuffLoader
-      color="#a016c7"
-      isLoading={isLoading}
-      size={250}
-      cssOverride={override}
-    />
+    <Loading/>
   ) : (
     <ListContainer>
       {filteredTechs.map((tech) => (

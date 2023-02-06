@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
+import { useRef } from "react";
 import { createContext } from "react";
 import {toast} from "react-toastify";
+import NotFound from "../components/NotFound";
 import api from "../services/api";
 
 export const AuthContext = createContext({});
@@ -11,6 +13,7 @@ const AuthProvider = ({children}) => {
   const [techs, setTechs]             = useState([]);
   const [search, setSearch]           = useState("");
   const [isLoading, setIsLoading]     = useState(true);
+  const container                     = useRef(null);
 
   useEffect(() => {
       api.get("techs")
@@ -24,34 +27,17 @@ const AuthProvider = ({children}) => {
     search === '' ? true : techs.area.toLowerCase().includes(search.toLowerCase())
   );
 
-    const notify = (message, type) => {
-        const config = {
-          position: "bottom-right",
-          autoClose: 1500,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        };
-        if (type === "warn") {
-          return toast.warn(message, config);
-        }
-        if (type === "success") {
-          return toast.success(message, config);
-        }
-        if (type === "info") {
-          return toast.info(message, config);
-        } else {
-          return toast.error(message, config);
-        }
-      };
+
+  const override = {
+    display: "block",
+    margin: "0 auto",
+  };
 
       return(
         <AuthContext.Provider 
-        value={{notify, techs, setTechs, search,
+        value={{techs, setTechs, search,
                 setSearch, filteredTechs, isLoading, 
-                setIsLoading
+                setIsLoading, override, container
               }}>
             {children}
         </AuthContext.Provider>

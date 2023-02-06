@@ -5,32 +5,32 @@ import { DashboardContainer } from "./Style";
 import dashLogo1 from "../../assets/dashLogo1.png";
 import TechsList from "../../components/TechsList";
 import Footer from "../../components/Footer";
-
+import NotFound from "../../components/NotFound";
 
 const Dashboard = () => {
-  const {setSearch} = useContext(AuthContext);
+  const { setSearch, filteredTechs } = useContext(AuthContext);
 
   return (
-      <DashboardContainer>
-        <nav className="navBar">
-          <img className="dashLogo" src={dashLogo1} alt="img" />
-          <input
-            className="form"
-            placeholder="Procure uma tech"
-            type="text"
-            onChange={(event) => {
-              setSearch(event.target.value);
-            }}
-          />
-          <Link to="/" className="logout">
-            Sair
-          </Link>
-        </nav>
+    <DashboardContainer>
+      <nav className="navBar">
+        <img className="dashLogo" src={dashLogo1} alt="img" />
+        <input
+          className="form"
+          placeholder="Procure uma tech"
+          type="text"
+          onChange={(event) => {
+            setSearch(event.target.value);
+          }}
+        />
+        <Link to="/" className="logout">
+          Sair
+        </Link>
+      </nav>
         <ul className="list">
           <TechsList />
         </ul>
-        <Footer />
-      </DashboardContainer>
+      <Footer />
+    </DashboardContainer>
   );
 };
 

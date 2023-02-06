@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const FooterBox = styled.footer`
 
     width: 100vw;
-    height: 300px;
+    height: 100px;
     padding: 3em;
     background-color: var(--Grey-4);
     border-top: solid 3px var(--Color-primary);
     display: flex;
     flex-direction: column;
     gap: 7px;
+    flex-grow: 1;
 
     footer{
         display: flex;
@@ -18,6 +19,8 @@ export const FooterBox = styled.footer`
         align-items: center;
         text-align: justify;
         gap: 5px;
+        flex-grow: 1;
+        
     }
 
     .gitContact{
