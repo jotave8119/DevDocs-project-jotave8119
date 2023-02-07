@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ListContainer = styled.li`
+export const ListContainer = styled.section`
 
 *{
     border: 0;

@@ -8,6 +8,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaYarn } from "react-icons/fa";
 import ParticlesBackground from "../../components/InitialBackground/Particles.jsx";
 import DevdocsLogo1 from "../../assets/DevdocsLogo1.png";
+import BtnHome from "../../components/BtnHome/index.jsx";
 
 
 const Home = () => {
@@ -65,9 +66,10 @@ const Home = () => {
             <SiTypescript size={40} />
           </a>
         </div>
-        <Link to="/Dashboard" className="link">
-          Iniciar
-        </Link>
+        <BtnHome/>
+        {/* <Link to="/Dashboard" className="glowing-btn" title="O que está esperando?">
+        <span className='glowing-txt'>I<span className='faulty-letter'>N</span>ICIAR</span>
+        </Link> */}
       </div>
       <footer className="foot"></footer>
     </HomeContainer>

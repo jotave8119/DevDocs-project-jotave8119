@@ -6,7 +6,7 @@ import { ListContainer } from "./Style";
 
 const TechsList = () => {
 
-  const { techs, setTechs, filteredTechs, isLoading } =
+  const { isLoading, filteredTechs } =
     useContext(AuthContext);
 
   return isLoading ? (
@@ -27,7 +27,7 @@ const TechsList = () => {
               className="documentation"
               href={tech.doc}
               target="_blank"
-              title="Ver Doc"
+              title="Ver Doc!"
             >
               Ver Doc
             </a>
