@@ -1,11 +1,9 @@
 import { AuthContext } from "../../contexts/AuthContext";
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
 import { DashboardContainer } from "./Style";
 import dashLogo1 from "../../assets/dashLogo1.png";
 import TechsList from "../../components/TechsList";
 import Footer from "../../components/Footer";
-import NotFound from "../../components/NotFound";
 import BtnDashboard from "../../components/BtnDashboard";
 
 const Dashboard = () => {

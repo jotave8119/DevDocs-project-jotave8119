@@ -1,7 +1,5 @@
 import Lottie from "lottie-web";
-import { useRef } from "react";
-import { useContext } from "react";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
 
 

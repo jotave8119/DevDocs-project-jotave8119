@@ -1,9 +1,6 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
-import { useRef } from "react";
+import React from "react";
+import { useEffect, useRef, useState } from "react";
 import { createContext } from "react";
-import {toast} from "react-toastify";
-import NotFound from "../components/NotFound";
 import api from "../services/api";
 
 export const AuthContext = createContext({});

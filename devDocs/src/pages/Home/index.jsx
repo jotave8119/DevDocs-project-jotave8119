@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { HomeContainer } from "./style.js";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
